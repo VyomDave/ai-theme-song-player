@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Ai - Song Player web app</title>
+    <title>Ai - Dj web app</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,16 +17,23 @@
 
 <body>
     <center>
-        <h1 class="heading">Ai-Song Player
+        <h1 class="heading">Ai-Dj
             <br>
-            <p>Note- Get your left hand wrist play them song of Charlie and the chocolate factory
-                and get your right hand for harry porter theme song.
-            </p>
+            <p>Note- Move your left hand wrist up and down to change the volume and move your right hand wrist up and down
+                to change the speed. </p>
         </h1>
-        <div id="song_div">
+        <div id="speed_div">
+            <img src="disk.gif" class="disk_image">
             <br>
-            <h3 class="song_label btn">Song - </h3>
+            <h3 class="speed_label btn" id="speed">Speed</h3>
         </div>
+        <div id="volume_div">
+            <img src="disk.gif" class="disk_image">
+            <br>
+            <h3 class="volume_label btn" id="volume">Volume</h3>
+        </div>
+        <button class="btn btn-info" onclick="play()">Play Song</button>
+        <button class="btn btn-info" onclick="stop()">Stop Song</button>
     </center>
     <div class="footer">
         Devoloped By Vyom Dave
