@@ -1,0 +1,33 @@
+body{
+    background-image: url("260560bec350a0e2312f276878d265c8--music-symbols-music-artwork.jpg");
+    background-size: cover;
+    font-family: 'Sriracha', cursive;
+}
+.heading{
+    background-color: white;
+    color: palevioletred;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px rgb(250, 217, 157) double;
+    margin: 0;
+}
+p{
+    font-size: 17px;
+    color: rgb(253, 174, 253);
+}
+h3{
+    color: rgb(250, 192, 84);
+    background-color: white;
+    width: 200px;
+    font-size: 22px;
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: rgb(250, 192, 84);
+    line-height: 1.8;
+    font-size: 18px;
+}
